@@ -17,7 +17,10 @@ public class Node{
          weight = w;
       }
 
-
+      public char getChar(){
+          return character;
+       }
+      
       public String toString(){
          return "" + character + " " + weight + " " + place + "\n" + parent;
       }
